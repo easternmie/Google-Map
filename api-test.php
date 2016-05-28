@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
-$data = array(
-    array(
+$data = //array(
+    [array(
         "title" => "BANGI DIALYSIS CENTRE SDN BHD",
         "lat" => 2.953110,
         "lng"=> 101.758544,
@@ -42,6 +42,7 @@ $data = array(
 		"lng" =>101.785752,
 		"description" =>"Copenhagen is the capital of Denmark and its most populous city",
 		"img" => "http://earthworm.net/wp-content/uploads/2015/04/twitter2-120x120.jpg"
-    )
-);
+    //)
+)];
+//$output = json_encode(array('markers' => $data));
 echo json_encode($data);
